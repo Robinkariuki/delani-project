@@ -8,13 +8,16 @@
 }
 .logo{
   position: absolute;
-  top: 180px; left: 48%;
+  top: 180px; left: 49%;
   width: 100px; height: 100px;
   margin-left: -50px;
 }
-.paragragh{
-  white-space: nowrap;
-  font-size: 18px
+#paragragh{
+
+text-align: center;
+color: white;
+font-family: serif;
+
 
 
 }
@@ -63,5 +66,18 @@ input[type=text] {
 .justified{
   display: flex;
   justify-content: center;
-  
+
+}
+.socialpng{
+  text-align: center;
+}
+h6{
+  text-align: center;
+}
+.aboutus{
+  text-align: center;
+  font-family: sans-serif;
+}
+.services{
+  color: white;
 }
