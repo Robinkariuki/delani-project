@@ -48,3 +48,11 @@ h3{
   text-align: center;
   color: white;
 }
+.nameform{
+  padding: 30px 10px;
+  text-align: center;
+}
+input[type=text] {
+  width: 30%;
+  border: 2px solid grey;
+}
