@@ -32,7 +32,15 @@
 
 .column {
   flex: 25%;
-  padding: 5px;
-  margin: auto;
+  padding: 26px;
+  column-gap: 20px;
+
+
+}
+.contactus{
+  background-image:url(../images/c_image.jpg);
+  background-size: cover;
+  width: 100%;
+  height:100vh;
 
 }
