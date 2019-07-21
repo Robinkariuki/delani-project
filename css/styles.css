@@ -58,6 +58,10 @@ input[type=text] {
 }
 #textarea{
   border: 2px solid white;
-  float: center;
 
+}
+.justified{
+  display: flex;
+  justify-content: center;
+  
 }
