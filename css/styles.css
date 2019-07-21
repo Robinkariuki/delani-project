@@ -1,3 +1,6 @@
+@media query {
+
+}
 .container-fluid {
   background-image:url(../images/h_img.jpg);
   background-size: cover;
@@ -10,4 +13,10 @@
   top: 180px; left: 48%;
   width: 100px; height: 100px;
   margin-left: -50px;
+}
+.paragragh{
+  white-space: nowrap;
+  font-size: 18px
+
+
 }
