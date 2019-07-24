@@ -25,10 +25,10 @@ $("#product").click(function() {
 $("#product").click(function() {
   $("#p3").hide();
 });
-$(".contactus").submit(function(event){
+$(".contact").submit(function(event){
     var name = document.getElementById("name");
 
-    $(".nameform").append(+ name + "we have received your email.we will get back to you soon ")
+    $(".forms").append(+ name + "we have received your email.we will get back to you soon ")
 
 
     event.preventDefault();
