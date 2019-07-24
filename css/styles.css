@@ -1,5 +1,5 @@
 
-.container-fluid {
+.container-first {
   background-image:url(../images/h_img.jpg);
   background-size: cover;
   width: 100%;
@@ -96,4 +96,32 @@ h6{
   transition: all 0.3s ease;
   opacity: 3;
 
+}
+.whatwedo p{
+  display:none;
+}
+.p3{
+  display: none;
+}
+.p1{
+  display: none;
+}
+.responsive img{
+  float: center;
+
+
+
+
+}
+
+.whatwedo{
+  display: block;
+  text-align:
+}
+.whatwedo img{
+  padding-left: 250px;
+}
+.whatwedo h4{
+    padding-left: 250px;
+    display:none;
 }

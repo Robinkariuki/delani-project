@@ -1,35 +1,19 @@
 $('#textarea').attr('rows', 20);
 
-$("#development").click(function() {
-  $("#p1").show();
-
-});
-$("#development").click(function() {
-  $("#p1").hide();
+$(document).ready(function(){
+  $("#design").click(function(){
+  $("#design p").toggle();
+  $("#design img").toggle();
 });
 
-
-
-$("#design").click(function() {
-  $("#p2").show();
-
-});
-$("#design").click(function() {
-  $("#p2").hide();
+$("#development").click(function(){
+$("#development p").toggle();
+$("#development img").toggle();
 });
 
-$("#product").click(function() {
-  $("#p3").show();
-
+$("#product").click(function(){
+$("#product p").toggle();
+$("#product img").toggle();
 });
-$("#product").click(function() {
-  $("#p3").hide();
-});
-$(".contact").submit(function(event){
-    var name = document.getElementById("name");
 
-    $(".forms").append(+ name + "we have received your email.we will get back to you soon ")
-
-
-    event.preventDefault();
 });
