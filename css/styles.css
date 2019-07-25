@@ -17,6 +17,7 @@
 text-align: center;
 color: white;
 font-family: serif;
+font-size: 	20px;
 
 
 
@@ -40,7 +41,7 @@ font-family: serif;
 
 
 }
-.contactus{
+#contactus{
   background-image:url(../images/c_image.jpg);
   background-size: cover;
   width: 100%;
@@ -70,6 +71,7 @@ input[type=text] {
 }
 .socialpng{
   text-align: center;
+  
 }
 h6{
   text-align: center;
